@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import ContactCard from "./ContactCard";
 import ContactForm from "./ContactForm";
 import { contactInfo } from "../../data/contact";
-import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   return (

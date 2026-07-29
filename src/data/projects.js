@@ -45,11 +45,11 @@ export const projects = [
 
     subtitle: "Responsive Property Listing Website",
 
-    image: "/projects/real-estate.png",
+    image: "/projects/estate.png",
 
-    live: "#",
+    live: "https://estate-three-gamma.vercel.app/",
 
-    github: "#",
+    github: "https://github.com/dubagari/estate",
 
     challenge:
       "Create an intuitive platform where users can browse, search, and explore property listings.",

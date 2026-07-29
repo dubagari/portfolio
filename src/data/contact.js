@@ -10,21 +10,21 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 export const contactInfo = [
   {
     title: "Email",
-    value: "your-email@example.com",
+    value: "superango93@gmail.com",
     icon: Mail,
-    link: "mailto:your-email@example.com",
+    link: "superango93@gmail.com",
   },
   {
     title: "GitHub",
-    value: "github.com/yourusername",
+    value: "github.com/dubagari",
     icon: FaGithub,
-    link: "https://github.com/yourusername",
+    link: "https://github.com/dubagari",
   },
   {
     title: "LinkedIn",
-    value: "linkedin.com/in/yourusername",
+    value: "linkedin.com/in/abubakar-dubagari-018023189",
     icon: FaLinkedin,
-    link: "https://linkedin.com/in/yourusername",
+    link: "https://www.linkedin.com/in/abubakar-dubagari-018023189/",
   },
   {
     title: "Resume",
@@ -34,14 +34,14 @@ export const contactInfo = [
   },
   {
     title: "WhatsApp",
-    value: "+234 XXX XXX XXXX",
+    value: "+234 703 611 2003",
     icon: MessageCircle,
-    link: "https://wa.me/234XXXXXXXXXX",
+    link: "https://wa.me/2347036112003",
   },
   {
     title: "Location",
-    value: "Nigeria",
+    value: "Bauchi, Nigeria",
     icon: MapPin,
-    link: "#",
+    link: "https://www.google.com/maps/place/Bauchi,+Nigeria",
   },
 ];
