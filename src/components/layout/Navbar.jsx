@@ -1,14 +1,14 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Download, Menu, X } from "lucide-react";
 
 const navLinks = [
-  { name: "Home", href: "home" },
-  { name: "About", href: "about" },
-  { name: "Skills", href: "skills" },
-  { name: "Projects", href: "projects" },
-  { name: "Experience", href: "experience" },
-  { name: "Services", href: "services" },
-  { name: "Contact", href: "contact" },
+  { name: "Home", href: "#home" },
+  { name: "About", href: "#about" },
+  { name: "Skills", href: "#skills" },
+  { name: "Projects", href: "#projects" },
+  { name: "Experience", href: "#experience" },
+  { name: "Services", href: "#services" },
+  { name: "Contact", href: "#contact" },
 ];
 
 const Navbar = () => {
@@ -41,12 +41,14 @@ const Navbar = () => {
 
         {/* Resume Button */}
         <a
-          href="/resume.pdf"
-          download
+          href="/Abubakar_Dubagari_Abdullahi_Resume.pdf"
+              download="Abubakar_Dubagari_Abdullahi_Resume.pdf"
+              aria-label="Download Resume"
           className="hidden lg:inline-flex bg-violet-600 hover:bg-violet-700 transition px-5 py-2 rounded-lg font-medium"
         >
           Resume
         </a>
+
 
         {/* Mobile Menu Button */}
         <button

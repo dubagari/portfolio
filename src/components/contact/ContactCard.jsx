@@ -8,6 +8,7 @@ const ContactCard = ({ item, index }) => {
       href={item.link}
       target={item.link.startsWith("http") ? "_blank" : "_self"}
       rel="noreferrer"
+      download={item.title === "Resume"}
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{
@@ -29,6 +30,27 @@ const ContactCard = ({ item, index }) => {
         {item.value}
       </p>
     </motion.a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   );
 };
 

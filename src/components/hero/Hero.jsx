@@ -66,20 +66,21 @@ const Hero = () => {
           <div className="flex flex-wrap gap-4 mt-10">
 
             <a
-              href="projects"
-              className="bg-violet-600 hover:bg-violet-700 transition px-7 py-4 rounded-xl flex items-center gap-2"
+              href="#projects"
+              className="group relative bg-violet-600 hover:bg-violet-700 transition px-7 py-4 rounded-xl flex items-center gap-2"
             >
               View Projects
-              <ArrowRight size={18} />
+              <ArrowRight size={18} className="transition-transform duration-300 group-hover:translate-x-1"/>
             </a>
 
             <a
-              href="/resume.pdf"
-              download
+              href="/Abubakar_Dubagari_Abdullahi_Resume.pdf"
+              download="Abubakar_Dubagari_Abdullahi_Resume.pdf"
+              aria-label="Download Resume"
               className="border border-violet-600 hover:bg-violet-600 transition px-7 py-4 rounded-xl flex items-center gap-2"
             >
               Resume
-              <Download size={18} />
+              <Download size={18} className="transition-transform duration-300 group-hover:translate-y-0.5"/>
             </a>
 
           </div>
@@ -96,7 +97,7 @@ const Hero = () => {
               <FaLinkedin size={22} />
             </a>
 
-            <a href="" className="text-gray-300 hover:text-violet-400 transition">
+            <a href="#" className="text-gray-300 hover:text-violet-400 transition">
               <Mail className="hover:text-violet-400 transition" />
             </a>
 

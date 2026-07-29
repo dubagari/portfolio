@@ -30,7 +30,7 @@ export const contactInfo = [
     title: "Resume",
     value: "Download Resume",
     icon: FileText,
-    link: "/resume.pdf",
+    link: "/Abubakar_Dubagari_Abdullahi_Resume.pdf",
   },
   {
     title: "WhatsApp",
