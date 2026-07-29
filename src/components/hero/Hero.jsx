@@ -66,7 +66,7 @@ const Hero = () => {
           <div className="flex flex-wrap gap-4 mt-10">
 
             <a
-              href="#projects"
+              href="projects"
               className="bg-violet-600 hover:bg-violet-700 transition px-7 py-4 rounded-xl flex items-center gap-2"
             >
               View Projects
@@ -96,7 +96,7 @@ const Hero = () => {
               <FaLinkedin size={22} />
             </a>
 
-            <a href="#" className="text-gray-300 hover:text-violet-400 transition">
+            <a href="" className="text-gray-300 hover:text-violet-400 transition">
               <Mail className="hover:text-violet-400 transition" />
             </a>
 

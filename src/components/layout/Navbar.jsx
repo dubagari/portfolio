@@ -2,13 +2,13 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
-  { name: "Projects", href: "#projects" },
-  { name: "Experience", href: "#experience" },
-  { name: "Services", href: "#services" },
-  { name: "Contact", href: "#contact" },
+  { name: "Home", href: "home" },
+  { name: "About", href: "about" },
+  { name: "Skills", href: "skills" },
+  { name: "Projects", href: "projects" },
+  { name: "Experience", href: "experience" },
+  { name: "Services", href: "services" },
+  { name: "Contact", href: "contact" },
 ];
 
 const Navbar = () => {
@@ -19,7 +19,7 @@ const Navbar = () => {
       <nav className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
         <a
-          href="#home"
+          href="home"
           className="text-2xl font-bold tracking-wide text-violet-400"
         >
           Dubagari<span className="text-white">.</span>
