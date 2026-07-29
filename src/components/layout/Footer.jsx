@@ -156,11 +156,12 @@ const Footer = () => {
         {/* Bottom */}
 
         <div className="mt-20 flex flex-col items-center justify-between gap-6 border-t border-white/10 pt-8 md:flex-row">
-
-          <p className="text-slate-500 text-sm">
-            © {new Date().getFullYear()} Abubakar Dubagari Abdullahi.
-            Crafted with React, Tailwind CSS & Framer Motion.
-          </p>
+<div className="w-full flex justify-center items-center">
+  <p className="text-slate-500 text-sm text-center">
+    © {new Date().getFullYear()} Abubakar Dubagari Abdullahi.
+    Crafted with React, Tailwind CSS & Framer Motion.
+  </p>
+</div>
 
           <button
             onClick={() =>
